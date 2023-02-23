@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+section{
+    background-color: white;
+    background-image: url(images/백그라운드\ 디자인\ 요소.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1000px;
+}
+
+.term { 
+    font-size: 4em; 
+    color: #F9BE28;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:#F9BE28;
+    text-decoration-thickness: 2px;
+    text-underline-offset : 20px;
+    flex-basis: 10%;   
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.background-img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    background-image: url('백그라운드 디자인 요소.jpg');
+}
+
+

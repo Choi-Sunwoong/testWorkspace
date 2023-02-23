@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+section{
+    background-color: white;
+    background-image: url(images/백그라운드\ 디자인\ 요소\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1000px;
+}
