@@ -33,4 +33,109 @@ section{
     background-image: url('백그라운드 디자인 요소.jpg');
 }
 
+* {
+    box-sizing: border-box;
+}
 
+.answer {
+display: none;
+padding-bottom: 30px;
+text-align: left;
+margin-left: 27%;
+margin-right: 25%;
+}
+
+
+#faq-title {
+    font-size: 25px;
+    color: #F9BE28;
+    font-size: 4em; 
+    text-decoration-line: underline;
+    text-decoration-color:#F9BE28;
+    text-decoration-thickness: 2px;
+    text-underline-offset : 20px;
+    flex-basis: 10%;   
+    height: 20%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top:5%;
+
+}
+
+.faq-content {
+
+}
+  
+.question {
+font-size: 19px;
+padding: 30px 0;
+cursor: pointer;
+border: none;
+outline: none;
+background: none;
+width: 50%;
+text-align: left;
+margin-left: 25%;
+margin-right: 25%;
+}
+  
+.question:hover {
+color: #2962ff;
+}
+
+[id$="-toggle"] {
+margin-right: 15px;
+}
+
+#que-1 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+
+#que-2 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-top: 40px;
+}
+
+#que-3 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-top: 40px;
+}
+
+#que-4 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-top: 40px;
+}
+
+#que-1-toggle {
+    position: absolute;
+    right: 450px;
+}
+
+#que-2-toggle {
+    position: absolute;
+    right: 450px;
+}
+
+#que-3-toggle {
+    position: absolute;
+    right: 450px;
+}
+
+#que-4-toggle {
+    position: absolute;
+    right: 450px;
+}
